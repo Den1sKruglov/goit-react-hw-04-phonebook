@@ -1,0 +1,48 @@
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+  border: 2px solid rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  outline: none;
+
+  color: rgb(105, 105, 105);
+
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(176, 196, 222);
+  color: rgb(245, 245, 245);
+}
+
+.text {
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+}

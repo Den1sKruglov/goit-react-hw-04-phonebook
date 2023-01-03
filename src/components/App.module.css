@@ -1,0 +1,31 @@
+*,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(245, 222, 179);
+  border-radius: 40px;
+  border: 2px solid rgb(105, 105, 105);
+}
+
+.mainTitle {
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
+  color: rgb(105, 105, 105);
+}
+
+.secondTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(105, 105, 105);
+}
