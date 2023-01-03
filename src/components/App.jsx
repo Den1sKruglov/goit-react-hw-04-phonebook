@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 
-import ContactsForm from './ConactsForm/ContactsForm';
+import ContactsForm from './ContactsForm/ContactsForm';
 import Filter from './Filter/Filter';
 import ContactsList from './ContactsList/ContactsList';
 import css from './App.module.css';
